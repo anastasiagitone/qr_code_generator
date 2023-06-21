@@ -1,0 +1,14 @@
+t=2023-06-21T06:47:39+0000 lvl=info msg="no configuration paths supplied"
+t=2023-06-21T06:47:39+0000 lvl=info msg="using configuration at default config path" path=/root/.config/ngrok/ngrok.yml
+t=2023-06-21T06:47:39+0000 lvl=info msg="open config file" path=/root/.config/ngrok/ngrok.yml err=nil
+t=2023-06-21T06:47:39+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2023-06-21T06:47:40+0000 lvl=info msg="client session established" obj=tunnels.session obj=csess id=69184a301165
+t=2023-06-21T06:47:40+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2023-06-21T06:47:40+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:8080 url=https://8021-195-18-19-54.ngrok-free.app
+t=2023-06-21T06:48:14+0000 lvl=warn msg="failed to open private leg" id=ad58d81245c5 privaddr=localhost:8080 err="dial tcp 127.0.0.1:8080: connect: connection refused"
+t=2023-06-21T06:48:33+0000 lvl=warn msg="failed to open private leg" id=bd4728c13c1f privaddr=localhost:8080 err="dial tcp 127.0.0.1:8080: connect: connection refused"
+t=2023-06-21T06:52:07+0000 lvl=info msg="received remote stop" obj=tunnels.session
+t=2023-06-21T06:52:07+0000 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=69184a301165 err="reconnecting session closed"
+t=2023-06-21T06:52:07+0000 lvl=info msg="no more state changes" obj=tunnels.session
+t=2023-06-21T06:52:07+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2023-06-21T06:52:07+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
